@@ -59,8 +59,6 @@ def parse_records(records):
 
     return parsed_records
 
-#clean = re.sub(r"\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}", normalize_phones, records)
-
 print(extract_names(records)) 
 print(extract_emails(records))
 print(normalize_phones(records))
